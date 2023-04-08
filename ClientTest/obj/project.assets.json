@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "StateMachineV1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/StateMachineV1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StateMachineV1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StateMachineV1/1.0.0": {
+      "type": "project",
+      "path": "../StateMachineV1/StateMachineV1.csproj",
+      "msbuildProject": "../StateMachineV1/StateMachineV1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "StateMachineV1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aymen/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aymen/RiderProjects/StatsMachine/ClientTest/ClientTest.csproj",
+      "projectName": "ClientTest",
+      "projectPath": "/Users/aymen/RiderProjects/StatsMachine/ClientTest/ClientTest.csproj",
+      "packagesPath": "/Users/aymen/.nuget/packages/",
+      "outputPath": "/Users/aymen/RiderProjects/StatsMachine/ClientTest/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aymen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/aymen/RiderProjects/StatsMachine/StateMachineV1/StateMachineV1.csproj": {
+              "projectPath": "/Users/aymen/RiderProjects/StatsMachine/StateMachineV1/StateMachineV1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
